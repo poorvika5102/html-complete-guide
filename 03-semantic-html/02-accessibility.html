@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility Basics</title>
+</head>
+
+<body>
+  <header>
+    <h1>Accessibility in HTML</h1>
+  </header>
+
+  <main>
+    <section aria-labelledby="accessibility-heading">
+      <h2 id="accessibility-heading">Why Accessibility Matters</h2>
+      <p>
+        Accessible HTML ensures that websites can be used by everyone,
+        including users who rely on assistive technologies.
+      </p>
+    </section>
+
+    <section>
+      <h2>Accessible Navigation</h2>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section>
+      <h2>Form Accessibility</h2>
+      <form>
+        <label for="search">Search</label><br>
+        <input type="text" id="search" name="search">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Accessible HTML example</p>
+  </footer>
+</body>
+</html>
