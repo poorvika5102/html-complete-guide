@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced HTML Form</title>
+</head>
+
+<body>
+  <h1>Advanced HTML Form</h1>
+
+  <p>
+    This form demonstrates advanced HTML features such as fieldsets,
+    native validation, and improved accessibility.
+  </p>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <div>
+        <label for="username">Username</label><br>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          minlength="4"
+          maxlength="20"
+          required
+        >
+      </div>
+
+      <br>
+
+      <div>
+        <label for="age">Age</label><br>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          min="18"
+          max="99"
+          required
+        >
+      </div>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      <legend>Account Settings</legend>
+
+      <div>
+        <label for="email">Email</label><br>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+        >
+      </div>
+
+      <br>
+
+      <div>
+        <label for="password">Password</label><br>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          minlength="8"
+          required
+        >
+      </div>
+    </fieldset>
+
+    <br>
+
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
