@@ -36,6 +36,9 @@ An HTML-only landing page demonstrating:
 - Clean, readable markup
 - Industry-standard best practices
 
+  ## Live Demo
+🔗 https://poorvika5102.github.io/html-complete-guide/
+
 ## Author
 Aspiring Frontend / Full-Stack Engineer  
 Focused on clean UI, accessibility, and scalable web applications
